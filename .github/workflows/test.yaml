@@ -7,3 +7,6 @@ jobs:
     steps:
       - name: Install helmfile
         uses: helmfile/helmfile-action@v1.0.0
+        with:
+          helm-version: v3.12.0
+          helmfile-version: v0.151.0
